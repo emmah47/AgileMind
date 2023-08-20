@@ -23,4 +23,7 @@ $ sudo ln -sfn /opt/homebrew/opt/openjdk\@17/libexec/openjdk.jdk /Library/Java/J
 File > Manage IDE Setting > Restore Default setting #this is to restore the plugins that were removed during CPSC 210
 File > Invalidate Caches --> select all checkboxes --> Invalidate and Restart
 Click on Maven panel on top right of screen > reload icon 
-Maven panel > proget Lifecycle > select clean and install > run # the run under Maven panel not the run project 
+Maven panel > proget Lifecycle > select clean and install > run # the run under Maven panel not the run project
+
+# Install node and npm
+$ brew install node 
