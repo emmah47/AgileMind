@@ -1,0 +1,26 @@
+# install docker
+$ homebrew install docker --cask
+
+# start and shut down docker compose
+$ docker-compose up -d
+$ docker-compose down
+
+# install studio3t as a mongo client gui
+
+# initialize project using start.spring.io
+Project: Maven
+Language: Java
+Spring Boot: 3.1.2
+Packaging: Jar
+Java: 17
+Dependencies: Lombok, Spring Web, Spring Data MongoDB
+
+# Install openJDK 17
+$ brew install openjdk@17 
+$ sudo ln -sfn /opt/homebrew/opt/openjdk\@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+# Configure IntelliJ
+File > Manage IDE Setting > Restore Default setting #this is to restore the plugins that were removed during CPSC 210
+File > Invalidate Caches --> select all checkboxes --> Invalidate and Restart
+Click on Maven panel on top right of screen > reload icon 
+Maven panel > proget Lifecycle > select clean and install > run # the run under Maven panel not the run project 
