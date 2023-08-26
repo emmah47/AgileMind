@@ -1,0 +1,6 @@
+[submodule "agile-mind-api"]
+	path = agile-mind-api
+	url = git@github.com:Falconfeather4/AgileMindApi.git
+[submodule "agile-mind-ui"]
+	path = agile-mind-ui
+	url = git@github.com:Falconfeather4/AgileMindApi.git
