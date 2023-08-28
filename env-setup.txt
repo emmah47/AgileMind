@@ -27,3 +27,18 @@ Maven panel > proget Lifecycle > select clean and install > run # the run under 
 
 # Install node and npm
 $ brew install node 
+
+# how to use submodule and update changes
+- the submodule links in the main repo are links to specific commits, not the actual submodule repo itself.
+- never edit submodules from within the main repo, as the head is detached. Always clone directly from the submodule repos and work on them from there.
+
+# Update submodule link in main repo:
+(must always clone a new copy of main repo)
+$ git clone --recurse-submodules https://github.com/Falconfeather4/AgileMind.git
+$ cd AgileMind
+$ git submodule update --remote
+$ git add .
+$ git commit -m "message"
+$ git push
+
+
