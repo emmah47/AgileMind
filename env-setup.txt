@@ -34,7 +34,7 @@ $ brew install node
 
 # Update submodule link in main repo:
 (must always clone a new copy of main repo)
-$ git clone --recurse-submodules https://github.com/Falconfeather4/AgileMind.git
+$ git clone --recurse-submodules https://github.com/emmah47/AgileMind.git
 $ cd AgileMind
 $ git submodule update --remote
 $ git add .
